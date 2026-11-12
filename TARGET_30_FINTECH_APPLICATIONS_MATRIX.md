@@ -155,7 +155,7 @@ When filling out Greenhouse, Lever, Keka, or custom portal forms, paste these st
 ### 12. Sensibull
 - **Category:** WealthTech, Quant Systems & Market Infrastructure
 - **Target Role(s):** Python Software Engineer, Quantitative Systems Dev
-- **Career Portal:** [https://jobs.lever.co/sensibull](https://jobs.lever.co/sensibull)
+- **Career Portal:** [https://www.instahyre.com/company/sensibull/](https://www.instahyre.com/company/sensibull/)
 - **Flagship Project:** [Autonomous Quantitative Alpha Terminal & Swarm](https://github.com/dhungababa/AI_Stock_Predictor_Quantitative)
 - **Customized Note / Pitch to Recruiter:**
 > "Hi Sensibull Recruiting Team, I am an AI/ML Engineer specializing in FinTech and quantitative systems. Specialized in 11-Microbot quant trading swarms, 10-tier NSE L2 order book market microstructure (OFI/VWAP), 1,000-path Monte Carlo GBM (VaR/CVaR), and Indian market execution frictions. I recently built and open-sourced Autonomous Quantitative Alpha Terminal & Swarm (https://github.com/dhungababa/AI_Stock_Predictor_Quantitative), showcasing production-grade pipelines, test coverage, and low-latency API architecture. I would love to contribute to Sensibull's engineering and data initiatives."
@@ -203,7 +203,7 @@ When filling out Greenhouse, Lever, Keka, or custom portal forms, paste these st
 ### 18. Tradetron
 - **Category:** WealthTech, Quant Systems & Market Infrastructure
 - **Target Role(s):** Quantitative Strategy Developer (Python), Backend SDE
-- **Career Portal:** [https://tradetron.tech/careers](https://tradetron.tech/careers)
+- **Career Portal:** [Direct Email Application: jobs@tradetron.tech](mailto:jobs@tradetron.tech?subject=Application%20for%20Quantitative%20Strategy%20Developer%20-%20Devashish%20Sharma)
 - **Flagship Project:** [Autonomous Quantitative Alpha Terminal & Swarm](https://github.com/dhungababa/AI_Stock_Predictor_Quantitative)
 - **Customized Note / Pitch to Recruiter:**
 > "Hi Tradetron Recruiting Team, I am an AI/ML Engineer specializing in FinTech and quantitative systems. Specialized in 11-Microbot quant trading swarms, 10-tier NSE L2 order book market microstructure (OFI/VWAP), 1,000-path Monte Carlo GBM (VaR/CVaR), and Indian market execution frictions. I recently built and open-sourced Autonomous Quantitative Alpha Terminal & Swarm (https://github.com/dhungababa/AI_Stock_Predictor_Quantitative), showcasing production-grade pipelines, test coverage, and low-latency API architecture. I would love to contribute to Tradetron's engineering and data initiatives."
