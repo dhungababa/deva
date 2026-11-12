@@ -67,7 +67,7 @@ When filling out Greenhouse, Lever, Keka, or custom portal forms, paste these st
 ### 1. Decentro
 - **Category:** FinTech, Payments & Risk Infrastructure
 - **Target Role(s):** Backend Engineer (Python/FastAPI), SDE-1 Data
-- **Career Portal:** [https://decentro.keka.com/careers](https://decentro.keka.com/careers)
+- **Career Portal:** [https://wellfound.com/company/decentro/jobs](https://wellfound.com/company/decentro/jobs)
 - **Flagship Project:** [UPI Fraud Detection & Defense SOC Engine](https://github.com/dhungababa/UPI_Fraud_Detection_SOC)
 - **Customized Note / Pitch to Recruiter:**
 > "Hi Decentro Recruiting Team, I am an AI/ML Engineer specializing in FinTech and quantitative systems. Specialized in real-time high-throughput transaction anomaly detection (XGBoost on 99:1 imbalanced data), sub-15ms FastAPI AsyncIO services, and ISO 8583 payment freeze automation. I recently built and open-sourced UPI Fraud Detection & Defense SOC Engine (https://github.com/dhungababa/UPI_Fraud_Detection_SOC), showcasing production-grade pipelines, test coverage, and low-latency API architecture. I would love to contribute to Decentro's engineering and data initiatives."
