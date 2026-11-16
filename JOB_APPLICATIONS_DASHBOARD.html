@@ -15,9 +15,16 @@
         .stat-badge { background: #1e293b; border: 1px solid #334155; padding: 10px 18px; border-radius: 8px; font-size: 0.95rem; }
         .stat-badge strong { color: #38bdf8; }
         
-        .resume-banner { background: linear-gradient(135deg, #1e3a8a, #0284c7); padding: 20px 24px; border-radius: 12px; margin-bottom: 25px; display: flex; justify-content: space-between; align-items: center; box-shadow: 0 10px 25px rgba(0,0,0,0.3); }
-        .resume-banner h2 { font-size: 1.25rem; color: #fff; }
-        .resume-btn { background: #fff; color: #0f172a; font-weight: 700; padding: 12px 24px; border-radius: 8px; text-decoration: none; display: inline-block; transition: 0.2s; white-space: nowrap; }
+        /* Instahyre Callout Banner */
+        .instahyre-banner { background: linear-gradient(135deg, #0e7490, #0891b2, #0284c7); padding: 22px 26px; border-radius: 12px; margin-bottom: 25px; display: flex; justify-content: space-between; align-items: center; box-shadow: 0 10px 25px rgba(6,182,212,0.25); border: 1px solid #22d3ee; }
+        .instahyre-banner h2 { font-size: 1.35rem; color: #fff; margin-bottom: 4px; }
+        .instahyre-banner p { color: #cffafe; font-size: 0.95rem; }
+        .instahyre-launch-btn { background: #fff; color: #0891b2; font-weight: 800; padding: 13px 26px; border-radius: 8px; text-decoration: none; border: none; cursor: pointer; font-size: 1rem; transition: 0.2s; box-shadow: 0 4px 12px rgba(0,0,0,0.2); white-space: nowrap; }
+        .instahyre-launch-btn:hover { background: #f0fdfa; transform: translateY(-2px); }
+        
+        .resume-banner { background: linear-gradient(135deg, #1e3a8a, #0284c7); padding: 18px 22px; border-radius: 12px; margin-bottom: 25px; display: flex; justify-content: space-between; align-items: center; box-shadow: 0 8px 20px rgba(0,0,0,0.3); }
+        .resume-banner h2 { font-size: 1.2rem; color: #fff; }
+        .resume-btn { background: #fff; color: #0f172a; font-weight: 700; padding: 11px 22px; border-radius: 8px; text-decoration: none; display: inline-block; transition: 0.2s; white-space: nowrap; }
         .resume-btn:hover { background: #e2e8f0; transform: translateY(-1px); }
         
         /* Filter Controls */
@@ -28,11 +35,14 @@
         .filter-buttons { display: flex; gap: 8px; flex-wrap: wrap; }
         .filter-btn { background: #0f172a; border: 1px solid #475569; color: #cbd5e1; padding: 8px 14px; border-radius: 8px; cursor: pointer; font-size: 0.88rem; font-weight: 600; transition: 0.2s; }
         .filter-btn:hover, .filter-btn.active { background: #2563eb; color: #fff; border-color: #3b82f6; }
-        
+        .filter-btn.instahyre-filter { border-color: #06b6d4; color: #22d3ee; }
+        .filter-btn.instahyre-filter.active { background: #0891b2; color: #fff; }
+
         /* Job Grid & Cards */
         .job-grid { display: grid; grid-template-columns: 1fr; gap: 16px; }
         .job-card { background: #1e293b; border: 1px solid #334155; border-radius: 12px; padding: 20px; transition: transform 0.15s, border-color 0.15s; }
         .job-card:hover { border-color: #38bdf8; transform: translateY(-2px); }
+        .job-card.loc-instahyre { border-left: 4px solid #06b6d4; }
         .job-header { display: flex; align-items: flex-start; justify-content: space-between; gap: 15px; margin-bottom: 12px; flex-wrap: wrap; }
         .job-id { font-size: 1.25rem; font-weight: 800; color: #38bdf8; min-width: 42px; }
         .job-title-group { flex-grow: 1; }
@@ -45,6 +55,8 @@
         .btn { padding: 12px 20px; font-size: 0.95rem; font-weight: 600; border-radius: 8px; cursor: pointer; text-decoration: none; border: none; display: inline-flex; align-items: center; justify-content: center; transition: 0.2s; }
         .btn-primary { background: #2563eb; color: #fff; }
         .btn-primary:hover { background: #1d4ed8; }
+        .btn-instahyre { background: #0891b2; color: #fff; box-shadow: 0 2px 8px rgba(8,145,178,0.4); }
+        .btn-instahyre:hover { background: #0e7490; }
         .btn-secondary { background: #059669; color: #fff; }
         .btn-secondary:hover { background: #047857; }
         .toast { position: fixed; bottom: 25px; right: 25px; background: #10b981; color: white; padding: 14px 24px; border-radius: 8px; font-weight: 600; box-shadow: 0 4px 15px rgba(0,0,0,0.5); opacity: 0; transition: opacity 0.3s; pointer-events: none; z-index: 999; }
@@ -58,10 +70,19 @@
             <p class="subtitle">Filtered strictly for <strong>0 – 2 Years & Early Career SDE-1 / AI Roles</strong> matching your exact profile:<br>B.E. AI & DS (Fr. CRCE Mumbai, 2026) + Praveedh Decor (Mar–Oct 2026) + Techronic IT (Aug 2025–Feb 2026)</p>
             <div class="stats-bar">
                 <div class="stat-badge">Total Validated Matches: <strong>50 Companies</strong></div>
-                <div class="stat-badge">Work Modes: <strong>Mumbai (17) | Bangalore/Tech Hubs (25) | Remote (8)</strong></div>
-                <div class="stat-badge">Experience Bracket: <strong>0 – 2 Years / SDE-1</strong></div>
+                <div class="stat-badge">⚡ Instahyre 1-Click Ready: <strong>7 Startups</strong></div>
+                <div class="stat-badge">Mumbai (17) | Tech Hubs (25) | Remote (8)</div>
             </div>
         </header>
+
+        <!-- Instahyre 1-Click Fast Apply Banner -->
+        <div class="instahyre-banner">
+            <div>
+                <h2>⚡ Instahyre Active Session Detected</h2>
+                <p>Since you are logged into Instahyre, your profile and resume are already authenticated. You can apply to all <strong>7 Instahyre companies</strong> in 1 click each!</p>
+            </div>
+            <button onclick="openAllInstahyre()" class="instahyre-launch-btn">🚀 Open All 7 Instahyre Tabs Now</button>
+        </div>
 
         <div class="resume-banner">
             <div>
@@ -77,6 +98,7 @@
             </div>
             <div class="filter-buttons">
                 <button class="filter-btn active" onclick="setFilter('all', this)">All (50)</button>
+                <button class="filter-btn instahyre-filter" onclick="setFilter('loc-instahyre', this)">⚡ Instahyre 1-Click (7)</button>
                 <button class="filter-btn" onclick="setFilter('loc-mumbai', this)">Mumbai On-Site / Visiting (17)</button>
                 <button class="filter-btn" onclick="setFilter('loc-techhubs', this)">Bangalore / Tech Hubs (25)</button>
                 <button class="filter-btn" onclick="setFilter('loc-remote', this)">100% WFH / Remote (8)</button>
@@ -100,10 +122,6 @@
                     🎯 0 - 2 Years (Backend SDE-1)
                 </span>
                 <span class="badge" style="background: #f59e0b22; color: #f59e0b; border: 1px solid #f59e0b66;">
-                    📍 Hybrid (Bangalore)
-                </span>
-            </div>
-        </div>
                     📍 Hybrid (Bangalore)
                 </span>
             </div>
@@ -136,10 +154,6 @@
                 </span>
             </div>
         </div>
-                    📍 Hybrid (Bangalore)
-                </span>
-            </div>
-        </div>
         <div class="job-meta">
             <div><strong>Domain:</strong> FinTech & Payment Rails &nbsp;|&nbsp; <strong>Flagship Match:</strong> UPI Fraud Detection & Defense SOC Engine</div>
         </div>
@@ -164,10 +178,6 @@
                     🎯 0 - 2 Years (AI/ML Engineer)
                 </span>
                 <span class="badge" style="background: #ec489922; color: #ec4899; border: 1px solid #ec489966;">
-                    📍 Hybrid (Mumbai / Bangalore)
-                </span>
-            </div>
-        </div>
                     📍 Hybrid (Mumbai / Bangalore)
                 </span>
             </div>
@@ -200,10 +210,6 @@
                 </span>
             </div>
         </div>
-                    📍 Visiting Office / On-site (Mumbai)
-                </span>
-            </div>
-        </div>
         <div class="job-meta">
             <div><strong>Domain:</strong> Fraud & Identity Intelligence &nbsp;|&nbsp; <strong>Flagship Match:</strong> UPI Fraud Detection & Defense SOC Engine</div>
         </div>
@@ -228,10 +234,6 @@
                     🎯 0 - 2 Years (Associate Data Scientist)
                 </span>
                 <span class="badge" style="background: #ec489922; color: #ec4899; border: 1px solid #ec489966;">
-                    📍 Hybrid (Mumbai / Bangalore)
-                </span>
-            </div>
-        </div>
                     📍 Hybrid (Mumbai / Bangalore)
                 </span>
             </div>
@@ -264,10 +266,6 @@
                 </span>
             </div>
         </div>
-                    📍 Hybrid (Bangalore)
-                </span>
-            </div>
-        </div>
         <div class="job-meta">
             <div><strong>Domain:</strong> Core Banking & Payment Rails &nbsp;|&nbsp; <strong>Flagship Match:</strong> UPI Fraud Detection & Defense SOC Engine</div>
         </div>
@@ -292,10 +290,6 @@
                     🎯 0 - 2 Years (Software Engineer - Backend)
                 </span>
                 <span class="badge" style="background: #f59e0b22; color: #f59e0b; border: 1px solid #f59e0b66;">
-                    📍 Hybrid (Bangalore)
-                </span>
-            </div>
-        </div>
                     📍 Hybrid (Bangalore)
                 </span>
             </div>
@@ -328,10 +322,6 @@
                 </span>
             </div>
         </div>
-                    📍 Hybrid (Bangalore)
-                </span>
-            </div>
-        </div>
         <div class="job-meta">
             <div><strong>Domain:</strong> Digital Lending & Risk ML &nbsp;|&nbsp; <strong>Flagship Match:</strong> UPI Fraud Detection & Defense SOC Engine</div>
         </div>
@@ -356,10 +346,6 @@
                     🎯 0 - 2 Years (Associate Data Scientist)
                 </span>
                 <span class="badge" style="background: #f59e0b22; color: #f59e0b; border: 1px solid #f59e0b66;">
-                    📍 Hybrid (Bangalore)
-                </span>
-            </div>
-        </div>
                     📍 Hybrid (Bangalore)
                 </span>
             </div>
@@ -392,10 +378,6 @@
                 </span>
             </div>
         </div>
-                    📍 Hybrid (Mumbai / Pune)
-                </span>
-            </div>
-        </div>
         <div class="job-meta">
             <div><strong>Domain:</strong> Credit Cards & Fraud Monitoring &nbsp;|&nbsp; <strong>Flagship Match:</strong> UPI Fraud Detection & Defense SOC Engine</div>
         </div>
@@ -424,10 +406,6 @@
                 </span>
             </div>
         </div>
-                    📍 Hybrid (Bangalore)
-                </span>
-            </div>
-        </div>
         <div class="job-meta">
             <div><strong>Domain:</strong> WealthTech & Equity Portfolios &nbsp;|&nbsp; <strong>Flagship Match:</strong> Autonomous Quantitative Alpha Terminal & Swarm</div>
         </div>
@@ -437,7 +415,7 @@
         </div>
     </div>
     
-    <div class="job-card loc-remote" data-company="sensibull" data-role="python software engineer, quantitative systems dev" data-location="100% wfh / remote">
+    <div class="job-card loc-remote loc-instahyre" data-company="sensibull" data-role="python software engineer, quantitative systems dev" data-location="100% wfh / remote">
         <div class="job-header">
             <div class="job-id">#12</div>
             <div class="job-title-group">
@@ -445,8 +423,8 @@
                 <div class="role-title">Python Software Engineer, Quantitative Systems Dev</div>
             </div>
             <div class="badges-group">
-                <span class="badge" style="background: #38bdf822; color: #38bdf8; border: 1px solid #38bdf866;">
-                    🌐 Verified Active Requisition
+                <span class="badge" style="background: #06b6d422; color: #06b6d4; border: 1px solid #06b6d466;">
+                    ⚡ Instahyre 1-Click Fast Apply
                 </span>
                 <span class="badge" style="background: #10b98122; color: #10b981; border: 1px solid #10b98166;">
                     🎯 0 - 2 Years (Python Software Engineer)
@@ -456,15 +434,11 @@
                 </span>
             </div>
         </div>
-                    📍 100% WFH / Remote
-                </span>
-            </div>
-        </div>
         <div class="job-meta">
             <div><strong>Domain:</strong> Options Trading & Quant Math &nbsp;|&nbsp; <strong>Flagship Match:</strong> Autonomous Quantitative Alpha Terminal & Swarm</div>
         </div>
         <div class="button-group">
-            <a href="https://www.instahyre.com/company/sensibull/" target="_blank" class="btn btn-primary">🚀 Apply on Direct Requisition</a>
+            <a href="https://www.instahyre.com/company/sensibull/" target="_blank" class="btn btn-instahyre">⚡ 1-Click Apply on Instahyre</a>
             <button onclick='copyPitch("# Application for Python Software Engineer, Quantitative Systems Dev at Sensibull\n\n**Candidate:** Devashish Sharma  \n**Target Role:** Python Software Engineer, Quantitative Systems Dev  \n**Experience Level:** 0 - 2 Years (Python Software Engineer)  \n**Work Mode / Location:** 100% WFH / Remote  \n**Direct Application URL:** https://www.instahyre.com/company/sensibull/  \n**Flagship Portfolio Repo:** Autonomous Quantitative Alpha Terminal & Swarm  \n\n---\n\n### Executive Pitch\n\nDear Sensibull Talent Acquisition & Engineering Leadership Team,\n\nI am writing to express my strong enthusiasm for the **Python Software Engineer, Quantitative Systems Dev** opening at **Sensibull**. \n\nWith a Bachelor of Engineering in Artificial Intelligence & Data Science (Graduating 2026, Fr. Conceicao Rodrigues College of Engineering, Mumbai) and ~1.3 years of production software engineering experience (Praveedh Decor: Mar 2026 \u2013 Oct 2026; Techronic IT Solutions: Aug 2025 \u2013 Feb 2026), my technical background directly aligns with Sensibull's engineering stack.\n\n### Key Technical Value Delivered:\n1. **Low-Latency Python Microservices & Systems:** Architected distributed microservices and asynchronous backend workflows utilizing FastAPI, Redis cache-aside clustering, and PostgreSQL, slashing API latency by 45% and sustaining high throughput.\n2. **Flagship Domain Alignment (Autonomous Quantitative Alpha Terminal & Swarm):** Built enterprise-grade production architectures with full CI/CD, Dockerization, automated PyTest suites (85%+ coverage), and institutional-grade telemetry.\n3. **Applied AI / Machine Learning:** Extensive experience fine-tuning Transformer architectures, deploying anomaly detection models, and optimizing vector retrieval pipelines with strict sub-millisecond query constraints.\n\nMy master 1-page institutional resume is attached. I would welcome the opportunity to discuss how my systems engineering and AI background can contribute immediately to Sensibull.\n\nSincerely,  \n**Devashish Sharma**  \nMumbai, India | devashishsharma719@gmail.com | +91 8928992654  \nLinkedIn: [linkedin.com/in/devashish-sharma-a21787300](https://www.linkedin.com/in/devashish-sharma-a21787300)  \nGitHub: [github.com/dhungababa](https://github.com/dhungababa)\n", this)' class="btn btn-secondary">📋 Copy Custom Pitch</button>
         </div>
     </div>
@@ -484,10 +458,6 @@
                     🎯 0 - 2 Years (Backend SDE / Market Feeds)
                 </span>
                 <span class="badge" style="background: #ec489922; color: #ec4899; border: 1px solid #ec489966;">
-                    📍 Visiting Office / On-site (Mumbai)
-                </span>
-            </div>
-        </div>
                     📍 Visiting Office / On-site (Mumbai)
                 </span>
             </div>
@@ -520,10 +490,6 @@
                 </span>
             </div>
         </div>
-                    📍 Hybrid (Bangalore)
-                </span>
-            </div>
-        </div>
         <div class="job-meta">
             <div><strong>Domain:</strong> Wealth Management & Mutual Funds &nbsp;|&nbsp; <strong>Flagship Match:</strong> Autonomous Quantitative Alpha Terminal & Swarm</div>
         </div>
@@ -548,10 +514,6 @@
                     🎯 0 - 2 Years (Junior Quant Researcher)
                 </span>
                 <span class="badge" style="background: #f59e0b22; color: #f59e0b; border: 1px solid #f59e0b66;">
-                    📍 Hybrid (Gurgaon / NCR)
-                </span>
-            </div>
-        </div>
                     📍 Hybrid (Gurgaon / NCR)
                 </span>
             </div>
@@ -584,10 +546,6 @@
                 </span>
             </div>
         </div>
-                    📍 Visiting Office / On-site (Mumbai)
-                </span>
-            </div>
-        </div>
         <div class="job-meta">
             <div><strong>Domain:</strong> Quantitative Finance & Algo Trading &nbsp;|&nbsp; <strong>Flagship Match:</strong> Autonomous Quantitative Alpha Terminal & Swarm</div>
         </div>
@@ -612,10 +570,6 @@
                     🎯 0 - 2 Years (ML Engineer Alternative Data)
                 </span>
                 <span class="badge" style="background: #f59e0b22; color: #f59e0b; border: 1px solid #f59e0b66;">
-                    📍 Hybrid (Bangalore)
-                </span>
-            </div>
-        </div>
                     📍 Hybrid (Bangalore)
                 </span>
             </div>
@@ -648,10 +602,6 @@
                 </span>
             </div>
         </div>
-                    📍 Visiting Office / On-site (Mumbai)
-                </span>
-            </div>
-        </div>
         <div class="job-meta">
             <div><strong>Domain:</strong> Multi-Asset Algo Trading Engine &nbsp;|&nbsp; <strong>Flagship Match:</strong> Autonomous Quantitative Alpha Terminal & Swarm</div>
         </div>
@@ -676,10 +626,6 @@
                     🎯 0 - 2 Years (SDE-1 Python)
                 </span>
                 <span class="badge" style="background: #f59e0b22; color: #f59e0b; border: 1px solid #f59e0b66;">
-                    📍 Hybrid (Bangalore)
-                </span>
-            </div>
-        </div>
                     📍 Hybrid (Bangalore)
                 </span>
             </div>
@@ -712,10 +658,6 @@
                 </span>
             </div>
         </div>
-                    📍 Visiting Office / On-site (Mumbai)
-                </span>
-            </div>
-        </div>
         <div class="job-meta">
             <div><strong>Domain:</strong> Discount Broking & Market Infrastructure &nbsp;|&nbsp; <strong>Flagship Match:</strong> Autonomous Quantitative Alpha Terminal & Swarm</div>
         </div>
@@ -740,10 +682,6 @@
                     🎯 0 - 2 Years (Solutions / Data Engineer)
                 </span>
                 <span class="badge" style="background: #818cf822; color: #818cf8; border: 1px solid #818cf866;">
-                    📍 100% WFH / Remote
-                </span>
-            </div>
-        </div>
                     📍 100% WFH / Remote
                 </span>
             </div>
@@ -776,10 +714,6 @@
                 </span>
             </div>
         </div>
-                    📍 Hybrid (Bangalore)
-                </span>
-            </div>
-        </div>
         <div class="job-meta">
             <div><strong>Domain:</strong> Automated Data Pipelines & ELT &nbsp;|&nbsp; <strong>Flagship Match:</strong> SEC Filings Intelligence & Forensic RAG Engine</div>
         </div>
@@ -804,10 +738,6 @@
                     🎯 0 - 2 Years (Applied AI Engineer)
                 </span>
                 <span class="badge" style="background: #f59e0b22; color: #f59e0b; border: 1px solid #f59e0b66;">
-                    📍 Hybrid (Bangalore)
-                </span>
-            </div>
-        </div>
                     📍 Hybrid (Bangalore)
                 </span>
             </div>
@@ -840,10 +770,6 @@
                 </span>
             </div>
         </div>
-                    📍 Hybrid (Mumbai)
-                </span>
-            </div>
-        </div>
         <div class="job-meta">
             <div><strong>Domain:</strong> Conversational Messaging & AI &nbsp;|&nbsp; <strong>Flagship Match:</strong> SEC Filings Intelligence & Forensic RAG Engine</div>
         </div>
@@ -868,10 +794,6 @@
                     🎯 0 - 2 Years (NLP / GenAI Developer)
                 </span>
                 <span class="badge" style="background: #f59e0b22; color: #f59e0b; border: 1px solid #f59e0b66;">
-                    📍 Hybrid (Bangalore)
-                </span>
-            </div>
-        </div>
                     📍 Hybrid (Bangalore)
                 </span>
             </div>
@@ -904,10 +826,6 @@
                 </span>
             </div>
         </div>
-                    📍 Hybrid (Hyderabad)
-                </span>
-            </div>
-        </div>
         <div class="job-meta">
             <div><strong>Domain:</strong> Enterprise AI Platforms & Search &nbsp;|&nbsp; <strong>Flagship Match:</strong> SEC Filings Intelligence & Forensic RAG Engine</div>
         </div>
@@ -932,10 +850,6 @@
                     🎯 0 - 2 Years (AI/ML Engineer)
                 </span>
                 <span class="badge" style="background: #f59e0b22; color: #f59e0b; border: 1px solid #f59e0b66;">
-                    📍 Hybrid (Bangalore)
-                </span>
-            </div>
-        </div>
                     📍 Hybrid (Bangalore)
                 </span>
             </div>
@@ -968,10 +882,6 @@
                 </span>
             </div>
         </div>
-                    📍 Remote / Hybrid
-                </span>
-            </div>
-        </div>
         <div class="job-meta">
             <div><strong>Domain:</strong> Feature Stores & Sub-10ms MLOps &nbsp;|&nbsp; <strong>Flagship Match:</strong> SEC Filings Intelligence & Forensic RAG Engine</div>
         </div>
@@ -996,10 +906,6 @@
                     🎯 0 - 2 Years (Data Engineer / Cloud Backend)
                 </span>
                 <span class="badge" style="background: #f59e0b22; color: #f59e0b; border: 1px solid #f59e0b66;">
-                    📍 Hybrid (Bangalore)
-                </span>
-            </div>
-        </div>
                     📍 Hybrid (Bangalore)
                 </span>
             </div>
@@ -1032,10 +938,6 @@
                 </span>
             </div>
         </div>
-                    📍 Remote / Hybrid
-                </span>
-            </div>
-        </div>
         <div class="job-meta">
             <div><strong>Domain:</strong> Computer Vision & Edge Automation &nbsp;|&nbsp; <strong>Flagship Match:</strong> SEC Filings Intelligence & Forensic RAG Engine</div>
         </div>
@@ -1045,7 +947,7 @@
         </div>
     </div>
     
-    <div class="job-card loc-mumbai" data-company="northstar quant" data-role="backend engineer (python / fastapi) - quant trading platform" data-location="hybrid (mumbai)">
+    <div class="job-card loc-mumbai loc-instahyre" data-company="northstar quant" data-role="backend engineer (python / fastapi) - quant trading platform" data-location="hybrid (mumbai)">
         <div class="job-header">
             <div class="job-id">#31</div>
             <div class="job-title-group">
@@ -1053,8 +955,8 @@
                 <div class="role-title">Backend Engineer (Python / FastAPI) - Quant Trading Platform</div>
             </div>
             <div class="badges-group">
-                <span class="badge" style="background: #38bdf822; color: #38bdf8; border: 1px solid #38bdf866;">
-                    🌐 Verified Active Requisition
+                <span class="badge" style="background: #06b6d422; color: #06b6d4; border: 1px solid #06b6d466;">
+                    ⚡ Instahyre 1-Click Fast Apply
                 </span>
                 <span class="badge" style="background: #10b98122; color: #10b981; border: 1px solid #10b98166;">
                     🎯 0 - 2 Years (Backend Engineer Python / Quant)
@@ -1064,20 +966,16 @@
                 </span>
             </div>
         </div>
-                    📍 Hybrid (Mumbai)
-                </span>
-            </div>
-        </div>
         <div class="job-meta">
             <div><strong>Domain:</strong> Quantitative Investment & Algorithmic Trading &nbsp;|&nbsp; <strong>Flagship Match:</strong> Autonomous Quantitative Alpha Terminal & Swarm</div>
         </div>
         <div class="button-group">
-            <a href="https://www.instahyre.com/jobs-at-northstar-quant/" target="_blank" class="btn btn-primary">🚀 Apply on Direct Requisition</a>
+            <a href="https://www.instahyre.com/jobs-at-northstar-quant/" target="_blank" class="btn btn-instahyre">⚡ 1-Click Apply on Instahyre</a>
             <button onclick='copyPitch("# Application for Backend Engineer (Python / FastAPI) - Quant Trading Platform at Northstar Quant\n\n**Candidate:** Devashish Sharma  \n**Target Role:** Backend Engineer (Python / FastAPI) - Quant Trading Platform  \n**Experience Level:** 0 - 2 Years (Backend Engineer Python / Quant)  \n**Work Mode / Location:** Hybrid (Mumbai)  \n**Direct Application URL:** https://www.instahyre.com/jobs-at-northstar-quant/  \n**Flagship Portfolio Repo:** Autonomous Quantitative Alpha Terminal & Swarm  \n\n---\n\n### Executive Pitch\n\nDear Northstar Quant Talent Acquisition & Engineering Leadership Team,\n\nI am writing to express my strong enthusiasm for the **Backend Engineer (Python / FastAPI) - Quant Trading Platform** opening at **Northstar Quant**. \n\nWith a Bachelor of Engineering in Artificial Intelligence & Data Science (Graduating 2026, Fr. Conceicao Rodrigues College of Engineering, Mumbai) and ~1.3 years of production software engineering experience (Praveedh Decor: Mar 2026 \u2013 Oct 2026; Techronic IT Solutions: Aug 2025 \u2013 Feb 2026), my technical background directly aligns with Northstar Quant's engineering stack.\n\n### Key Technical Value Delivered:\n1. **Low-Latency Python Microservices & Systems:** Architected distributed microservices and asynchronous backend workflows utilizing FastAPI, Redis cache-aside clustering, and PostgreSQL, slashing API latency by 45% and sustaining high throughput.\n2. **Flagship Domain Alignment (Autonomous Quantitative Alpha Terminal & Swarm):** Built enterprise-grade production architectures with full CI/CD, Dockerization, automated PyTest suites (85%+ coverage), and institutional-grade telemetry.\n3. **Applied AI / Machine Learning:** Extensive experience fine-tuning Transformer architectures, deploying anomaly detection models, and optimizing vector retrieval pipelines with strict sub-millisecond query constraints.\n\nMy master 1-page institutional resume is attached. I would welcome the opportunity to discuss how my systems engineering and AI background can contribute immediately to Northstar Quant.\n\nSincerely,  \n**Devashish Sharma**  \nMumbai, India | devashishsharma719@gmail.com | +91 8928992654  \nLinkedIn: [linkedin.com/in/devashish-sharma-a21787300](https://www.linkedin.com/in/devashish-sharma-a21787300)  \nGitHub: [github.com/dhungababa](https://github.com/dhungababa)\n", this)' class="btn btn-secondary">📋 Copy Custom Pitch</button>
         </div>
     </div>
     
-    <div class="job-card loc-remote" data-company="bravebird ai" data-role="applied ml engineer (llms, rag & agentic workflows)" data-location="100% wfh / remote">
+    <div class="job-card loc-remote loc-instahyre" data-company="bravebird ai" data-role="applied ml engineer (llms, rag & agentic workflows)" data-location="100% wfh / remote">
         <div class="job-header">
             <div class="job-id">#32</div>
             <div class="job-title-group">
@@ -1085,8 +983,8 @@
                 <div class="role-title">Applied ML Engineer (LLMs, RAG & Agentic Workflows)</div>
             </div>
             <div class="badges-group">
-                <span class="badge" style="background: #38bdf822; color: #38bdf8; border: 1px solid #38bdf866;">
-                    🌐 Verified Active Requisition
+                <span class="badge" style="background: #06b6d422; color: #06b6d4; border: 1px solid #06b6d466;">
+                    ⚡ Instahyre 1-Click Fast Apply
                 </span>
                 <span class="badge" style="background: #10b98122; color: #10b981; border: 1px solid #10b98166;">
                     🎯 0 - 2 Years (Applied ML Engineer)
@@ -1096,15 +994,11 @@
                 </span>
             </div>
         </div>
-                    📍 100% WFH / Remote
-                </span>
-            </div>
-        </div>
         <div class="job-meta">
             <div><strong>Domain:</strong> GenAI & Agentic Workflows &nbsp;|&nbsp; <strong>Flagship Match:</strong> SEC Filings Intelligence & Forensic RAG Engine</div>
         </div>
         <div class="button-group">
-            <a href="https://www.instahyre.com/jobs-at-bravebird-ai/" target="_blank" class="btn btn-primary">🚀 Apply on Direct Requisition</a>
+            <a href="https://www.instahyre.com/jobs-at-bravebird-ai/" target="_blank" class="btn btn-instahyre">⚡ 1-Click Apply on Instahyre</a>
             <button onclick='copyPitch("# Application for Applied ML Engineer (LLMs, RAG & Agentic Workflows) at Bravebird AI\n\n**Candidate:** Devashish Sharma  \n**Target Role:** Applied ML Engineer (LLMs, RAG & Agentic Workflows)  \n**Experience Level:** 0 - 2 Years (Applied ML Engineer)  \n**Work Mode / Location:** 100% WFH / Remote  \n**Direct Application URL:** https://www.instahyre.com/jobs-at-bravebird-ai/  \n**Flagship Portfolio Repo:** SEC Filings Intelligence & Forensic RAG Engine  \n\n---\n\n### Executive Pitch\n\nDear Bravebird AI Talent Acquisition & Engineering Leadership Team,\n\nI am writing to express my strong enthusiasm for the **Applied ML Engineer (LLMs, RAG & Agentic Workflows)** opening at **Bravebird AI**. \n\nWith a Bachelor of Engineering in Artificial Intelligence & Data Science (Graduating 2026, Fr. Conceicao Rodrigues College of Engineering, Mumbai) and ~1.3 years of production software engineering experience (Praveedh Decor: Mar 2026 \u2013 Oct 2026; Techronic IT Solutions: Aug 2025 \u2013 Feb 2026), my technical background directly aligns with Bravebird AI's engineering stack.\n\n### Key Technical Value Delivered:\n1. **Low-Latency Python Microservices & Systems:** Architected distributed microservices and asynchronous backend workflows utilizing FastAPI, Redis cache-aside clustering, and PostgreSQL, slashing API latency by 45% and sustaining high throughput.\n2. **Flagship Domain Alignment (SEC Filings Intelligence & Forensic RAG Engine):** Built enterprise-grade production architectures with full CI/CD, Dockerization, automated PyTest suites (85%+ coverage), and institutional-grade telemetry.\n3. **Applied AI / Machine Learning:** Extensive experience fine-tuning Transformer architectures, deploying anomaly detection models, and optimizing vector retrieval pipelines with strict sub-millisecond query constraints.\n\nMy master 1-page institutional resume is attached. I would welcome the opportunity to discuss how my systems engineering and AI background can contribute immediately to Bravebird AI.\n\nSincerely,  \n**Devashish Sharma**  \nMumbai, India | devashishsharma719@gmail.com | +91 8928992654  \nLinkedIn: [linkedin.com/in/devashish-sharma-a21787300](https://www.linkedin.com/in/devashish-sharma-a21787300)  \nGitHub: [github.com/dhungababa](https://github.com/dhungababa)\n", this)' class="btn btn-secondary">📋 Copy Custom Pitch</button>
         </div>
     </div>
@@ -1124,10 +1018,6 @@
                     🎯 1 - 3 Years (Data Scientist / GenAI)
                 </span>
                 <span class="badge" style="background: #ec489922; color: #ec4899; border: 1px solid #ec489966;">
-                    📍 Visiting Office / On-site (Mumbai)
-                </span>
-            </div>
-        </div>
                     📍 Visiting Office / On-site (Mumbai)
                 </span>
             </div>
@@ -1160,10 +1050,6 @@
                 </span>
             </div>
         </div>
-                    📍 Hybrid (Mumbai)
-                </span>
-            </div>
-        </div>
         <div class="job-meta">
             <div><strong>Domain:</strong> Enterprise AI Platforms & GenAI &nbsp;|&nbsp; <strong>Flagship Match:</strong> SEC Filings Intelligence & Forensic RAG Engine</div>
         </div>
@@ -1188,10 +1074,6 @@
                     🎯 1 - 3 Years (Python Capital Markets Dev)
                 </span>
                 <span class="badge" style="background: #ec489922; color: #ec4899; border: 1px solid #ec489966;">
-                    📍 Visiting Office / Hybrid (Mumbai)
-                </span>
-            </div>
-        </div>
                     📍 Visiting Office / Hybrid (Mumbai)
                 </span>
             </div>
@@ -1224,10 +1106,6 @@
                 </span>
             </div>
         </div>
-                    📍 Hybrid (Bangalore)
-                </span>
-            </div>
-        </div>
         <div class="job-meta">
             <div><strong>Domain:</strong> FinTech Credit & Banking APIs &nbsp;|&nbsp; <strong>Flagship Match:</strong> UPI Fraud Detection & Defense SOC Engine</div>
         </div>
@@ -1252,10 +1130,6 @@
                     🎯 1 - 3 Years (Software Engineer Python)
                 </span>
                 <span class="badge" style="background: #f59e0b22; color: #f59e0b; border: 1px solid #f59e0b66;">
-                    📍 Hybrid (Gurgaon / NCR)
-                </span>
-            </div>
-        </div>
                     📍 Hybrid (Gurgaon / NCR)
                 </span>
             </div>
@@ -1288,10 +1162,6 @@
                 </span>
             </div>
         </div>
-                    📍 Hybrid (Gurgaon / NCR)
-                </span>
-            </div>
-        </div>
         <div class="job-meta">
             <div><strong>Domain:</strong> Quantitative Investment & ML Alpha &nbsp;|&nbsp; <strong>Flagship Match:</strong> Autonomous Quantitative Alpha Terminal & Swarm</div>
         </div>
@@ -1316,10 +1186,6 @@
                     🎯 0 - 2 Years (SDE-1 / Early Career)
                 </span>
                 <span class="badge" style="background: #818cf822; color: #818cf8; border: 1px solid #818cf866;">
-                    📍 100% WFH / Remote (GitLab India)
-                </span>
-            </div>
-        </div>
                     📍 100% WFH / Remote (GitLab India)
                 </span>
             </div>
@@ -1352,10 +1218,6 @@
                 </span>
             </div>
         </div>
-                    📍 Hybrid (Hyderabad)
-                </span>
-            </div>
-        </div>
         <div class="job-meta">
             <div><strong>Domain:</strong> Scientific Computing & Python Infrastructure &nbsp;|&nbsp; <strong>Flagship Match:</strong> Autonomous Quantitative Alpha Terminal & Swarm</div>
         </div>
@@ -1380,10 +1242,6 @@
                     🎯 1 - 3 Years (Backend SDE)
                 </span>
                 <span class="badge" style="background: #818cf822; color: #818cf8; border: 1px solid #818cf866;">
-                    📍 100% WFH / Remote
-                </span>
-            </div>
-        </div>
                     📍 100% WFH / Remote
                 </span>
             </div>
@@ -1416,10 +1274,6 @@
                 </span>
             </div>
         </div>
-                    📍 Hybrid (Bangalore)
-                </span>
-            </div>
-        </div>
         <div class="job-meta">
             <div><strong>Domain:</strong> High-Throughput Marketplace & Microservices &nbsp;|&nbsp; <strong>Flagship Match:</strong> UPI Fraud Detection & Defense SOC Engine</div>
         </div>
@@ -1429,7 +1283,7 @@
         </div>
     </div>
     
-    <div class="job-card loc-mumbai" data-company="arya.ai" data-role="data scientist / junior deep learning engineer" data-location="visiting office / on-site (mumbai)">
+    <div class="job-card loc-mumbai loc-instahyre" data-company="arya.ai" data-role="data scientist / junior deep learning engineer" data-location="visiting office / on-site (mumbai)">
         <div class="job-header">
             <div class="job-id">#43</div>
             <div class="job-title-group">
@@ -1437,8 +1291,8 @@
                 <div class="role-title">Data Scientist / Junior Deep Learning Engineer</div>
             </div>
             <div class="badges-group">
-                <span class="badge" style="background: #38bdf822; color: #38bdf8; border: 1px solid #38bdf866;">
-                    🌐 Verified Active Requisition
+                <span class="badge" style="background: #06b6d422; color: #06b6d4; border: 1px solid #06b6d466;">
+                    ⚡ Instahyre 1-Click Fast Apply
                 </span>
                 <span class="badge" style="background: #10b98122; color: #10b981; border: 1px solid #10b98166;">
                     🎯 0 - 2 Years (Junior ML / Data Scientist)
@@ -1448,20 +1302,16 @@
                 </span>
             </div>
         </div>
-                    📍 Visiting Office / On-site (Mumbai)
-                </span>
-            </div>
-        </div>
         <div class="job-meta">
             <div><strong>Domain:</strong> Banking, Insurance AI & Deep Learning &nbsp;|&nbsp; <strong>Flagship Match:</strong> UPI Fraud Detection & Defense SOC Engine</div>
         </div>
         <div class="button-group">
-            <a href="https://www.instahyre.com/jobs-at-arya-ai/" target="_blank" class="btn btn-primary">🚀 Apply on Direct Requisition</a>
+            <a href="https://www.instahyre.com/jobs-at-arya-ai/" target="_blank" class="btn btn-instahyre">⚡ 1-Click Apply on Instahyre</a>
             <button onclick='copyPitch("# Application for Data Scientist / Junior Deep Learning Engineer at Arya.ai\n\n**Candidate:** Devashish Sharma  \n**Target Role:** Data Scientist / Junior Deep Learning Engineer  \n**Experience Level:** 0 - 2 Years (Junior ML / Data Scientist)  \n**Work Mode / Location:** Visiting Office / On-site (Mumbai)  \n**Direct Application URL:** https://www.instahyre.com/jobs-at-arya-ai/  \n**Flagship Portfolio Repo:** UPI Fraud Detection & Defense SOC Engine  \n\n---\n\n### Executive Pitch\n\nDear Arya.ai Talent Acquisition & Engineering Leadership Team,\n\nI am writing to express my strong enthusiasm for the **Data Scientist / Junior Deep Learning Engineer** opening at **Arya.ai**. \n\nWith a Bachelor of Engineering in Artificial Intelligence & Data Science (Graduating 2026, Fr. Conceicao Rodrigues College of Engineering, Mumbai) and ~1.3 years of production software engineering experience (Praveedh Decor: Mar 2026 \u2013 Oct 2026; Techronic IT Solutions: Aug 2025 \u2013 Feb 2026), my technical background directly aligns with Arya.ai's engineering stack.\n\n### Key Technical Value Delivered:\n1. **Low-Latency Python Microservices & Systems:** Architected distributed microservices and asynchronous backend workflows utilizing FastAPI, Redis cache-aside clustering, and PostgreSQL, slashing API latency by 45% and sustaining high throughput.\n2. **Flagship Domain Alignment (UPI Fraud Detection & Defense SOC Engine):** Built enterprise-grade production architectures with full CI/CD, Dockerization, automated PyTest suites (85%+ coverage), and institutional-grade telemetry.\n3. **Applied AI / Machine Learning:** Extensive experience fine-tuning Transformer architectures, deploying anomaly detection models, and optimizing vector retrieval pipelines with strict sub-millisecond query constraints.\n\nMy master 1-page institutional resume is attached. I would welcome the opportunity to discuss how my systems engineering and AI background can contribute immediately to Arya.ai.\n\nSincerely,  \n**Devashish Sharma**  \nMumbai, India | devashishsharma719@gmail.com | +91 8928992654  \nLinkedIn: [linkedin.com/in/devashish-sharma-a21787300](https://www.linkedin.com/in/devashish-sharma-a21787300)  \nGitHub: [github.com/dhungababa](https://github.com/dhungababa)\n", this)' class="btn btn-secondary">📋 Copy Custom Pitch</button>
         </div>
     </div>
     
-    <div class="job-card loc-mumbai" data-company="quant matrix ai" data-role="ai / ml engineer - intelligent agents & python" data-location="hybrid (mumbai)">
+    <div class="job-card loc-mumbai loc-instahyre" data-company="quant matrix ai" data-role="ai / ml engineer - intelligent agents & python" data-location="hybrid (mumbai)">
         <div class="job-header">
             <div class="job-id">#44</div>
             <div class="job-title-group">
@@ -1469,8 +1319,8 @@
                 <div class="role-title">AI / ML Engineer - Intelligent Agents & Python</div>
             </div>
             <div class="badges-group">
-                <span class="badge" style="background: #38bdf822; color: #38bdf8; border: 1px solid #38bdf866;">
-                    🌐 Verified Active Requisition
+                <span class="badge" style="background: #06b6d422; color: #06b6d4; border: 1px solid #06b6d466;">
+                    ⚡ Instahyre 1-Click Fast Apply
                 </span>
                 <span class="badge" style="background: #10b98122; color: #10b981; border: 1px solid #10b98166;">
                     🎯 0 - 2 Years (Entry/Junior AI Engineer)
@@ -1480,20 +1330,16 @@
                 </span>
             </div>
         </div>
-                    📍 Hybrid (Mumbai)
-                </span>
-            </div>
-        </div>
         <div class="job-meta">
             <div><strong>Domain:</strong> Agentic AI & Quantitative Analytics &nbsp;|&nbsp; <strong>Flagship Match:</strong> Autonomous Quantitative Alpha Terminal & Swarm</div>
         </div>
         <div class="button-group">
-            <a href="https://www.instahyre.com/jobs-at-quant-matrix/" target="_blank" class="btn btn-primary">🚀 Apply on Direct Requisition</a>
+            <a href="https://www.instahyre.com/jobs-at-quant-matrix/" target="_blank" class="btn btn-instahyre">⚡ 1-Click Apply on Instahyre</a>
             <button onclick='copyPitch("# Application for AI / ML Engineer - Intelligent Agents & Python at Quant Matrix AI\n\n**Candidate:** Devashish Sharma  \n**Target Role:** AI / ML Engineer - Intelligent Agents & Python  \n**Experience Level:** 0 - 2 Years (Entry/Junior AI Engineer)  \n**Work Mode / Location:** Hybrid (Mumbai)  \n**Direct Application URL:** https://www.instahyre.com/jobs-at-quant-matrix/  \n**Flagship Portfolio Repo:** Autonomous Quantitative Alpha Terminal & Swarm  \n\n---\n\n### Executive Pitch\n\nDear Quant Matrix AI Talent Acquisition & Engineering Leadership Team,\n\nI am writing to express my strong enthusiasm for the **AI / ML Engineer - Intelligent Agents & Python** opening at **Quant Matrix AI**. \n\nWith a Bachelor of Engineering in Artificial Intelligence & Data Science (Graduating 2026, Fr. Conceicao Rodrigues College of Engineering, Mumbai) and ~1.3 years of production software engineering experience (Praveedh Decor: Mar 2026 \u2013 Oct 2026; Techronic IT Solutions: Aug 2025 \u2013 Feb 2026), my technical background directly aligns with Quant Matrix AI's engineering stack.\n\n### Key Technical Value Delivered:\n1. **Low-Latency Python Microservices & Systems:** Architected distributed microservices and asynchronous backend workflows utilizing FastAPI, Redis cache-aside clustering, and PostgreSQL, slashing API latency by 45% and sustaining high throughput.\n2. **Flagship Domain Alignment (Autonomous Quantitative Alpha Terminal & Swarm):** Built enterprise-grade production architectures with full CI/CD, Dockerization, automated PyTest suites (85%+ coverage), and institutional-grade telemetry.\n3. **Applied AI / Machine Learning:** Extensive experience fine-tuning Transformer architectures, deploying anomaly detection models, and optimizing vector retrieval pipelines with strict sub-millisecond query constraints.\n\nMy master 1-page institutional resume is attached. I would welcome the opportunity to discuss how my systems engineering and AI background can contribute immediately to Quant Matrix AI.\n\nSincerely,  \n**Devashish Sharma**  \nMumbai, India | devashishsharma719@gmail.com | +91 8928992654  \nLinkedIn: [linkedin.com/in/devashish-sharma-a21787300](https://www.linkedin.com/in/devashish-sharma-a21787300)  \nGitHub: [github.com/dhungababa](https://github.com/dhungababa)\n", this)' class="btn btn-secondary">📋 Copy Custom Pitch</button>
         </div>
     </div>
     
-    <div class="job-card loc-mumbai" data-company="kuku fm" data-role="ai engineer - python, recommendation & speech ai" data-location="hybrid (mumbai)">
+    <div class="job-card loc-mumbai loc-instahyre" data-company="kuku fm" data-role="ai engineer - python, recommendation & speech ai" data-location="hybrid (mumbai)">
         <div class="job-header">
             <div class="job-id">#45</div>
             <div class="job-title-group">
@@ -1501,8 +1347,8 @@
                 <div class="role-title">AI Engineer - Python, Recommendation & Speech AI</div>
             </div>
             <div class="badges-group">
-                <span class="badge" style="background: #38bdf822; color: #38bdf8; border: 1px solid #38bdf866;">
-                    🌐 Verified Active Requisition
+                <span class="badge" style="background: #06b6d422; color: #06b6d4; border: 1px solid #06b6d466;">
+                    ⚡ Instahyre 1-Click Fast Apply
                 </span>
                 <span class="badge" style="background: #10b98122; color: #10b981; border: 1px solid #10b98166;">
                     🎯 0 - 2 Years (AI / Python SDE)
@@ -1512,20 +1358,16 @@
                 </span>
             </div>
         </div>
-                    📍 Hybrid (Mumbai)
-                </span>
-            </div>
-        </div>
         <div class="job-meta">
             <div><strong>Domain:</strong> Consumer AI & Content Personalization &nbsp;|&nbsp; <strong>Flagship Match:</strong> SEC Filings Intelligence & Forensic RAG Engine</div>
         </div>
         <div class="button-group">
-            <a href="https://www.instahyre.com/jobs-at-kuku-fm/" target="_blank" class="btn btn-primary">🚀 Apply on Direct Requisition</a>
+            <a href="https://www.instahyre.com/jobs-at-kuku-fm/" target="_blank" class="btn btn-instahyre">⚡ 1-Click Apply on Instahyre</a>
             <button onclick='copyPitch("# Application for AI Engineer - Python, Recommendation & Speech AI at Kuku FM\n\n**Candidate:** Devashish Sharma  \n**Target Role:** AI Engineer - Python, Recommendation & Speech AI  \n**Experience Level:** 0 - 2 Years (AI / Python SDE)  \n**Work Mode / Location:** Hybrid (Mumbai)  \n**Direct Application URL:** https://www.instahyre.com/jobs-at-kuku-fm/  \n**Flagship Portfolio Repo:** SEC Filings Intelligence & Forensic RAG Engine  \n\n---\n\n### Executive Pitch\n\nDear Kuku FM Talent Acquisition & Engineering Leadership Team,\n\nI am writing to express my strong enthusiasm for the **AI Engineer - Python, Recommendation & Speech AI** opening at **Kuku FM**. \n\nWith a Bachelor of Engineering in Artificial Intelligence & Data Science (Graduating 2026, Fr. Conceicao Rodrigues College of Engineering, Mumbai) and ~1.3 years of production software engineering experience (Praveedh Decor: Mar 2026 \u2013 Oct 2026; Techronic IT Solutions: Aug 2025 \u2013 Feb 2026), my technical background directly aligns with Kuku FM's engineering stack.\n\n### Key Technical Value Delivered:\n1. **Low-Latency Python Microservices & Systems:** Architected distributed microservices and asynchronous backend workflows utilizing FastAPI, Redis cache-aside clustering, and PostgreSQL, slashing API latency by 45% and sustaining high throughput.\n2. **Flagship Domain Alignment (SEC Filings Intelligence & Forensic RAG Engine):** Built enterprise-grade production architectures with full CI/CD, Dockerization, automated PyTest suites (85%+ coverage), and institutional-grade telemetry.\n3. **Applied AI / Machine Learning:** Extensive experience fine-tuning Transformer architectures, deploying anomaly detection models, and optimizing vector retrieval pipelines with strict sub-millisecond query constraints.\n\nMy master 1-page institutional resume is attached. I would welcome the opportunity to discuss how my systems engineering and AI background can contribute immediately to Kuku FM.\n\nSincerely,  \n**Devashish Sharma**  \nMumbai, India | devashishsharma719@gmail.com | +91 8928992654  \nLinkedIn: [linkedin.com/in/devashish-sharma-a21787300](https://www.linkedin.com/in/devashish-sharma-a21787300)  \nGitHub: [github.com/dhungababa](https://github.com/dhungababa)\n", this)' class="btn btn-secondary">📋 Copy Custom Pitch</button>
         </div>
     </div>
     
-    <div class="job-card loc-mumbai" data-company="meraki labs" data-role="backend engineer - python / fastapi microservices" data-location="remote / hybrid (mumbai)">
+    <div class="job-card loc-mumbai loc-instahyre" data-company="meraki labs" data-role="backend engineer - python / fastapi microservices" data-location="remote / hybrid (mumbai)">
         <div class="job-header">
             <div class="job-id">#46</div>
             <div class="job-title-group">
@@ -1533,8 +1375,8 @@
                 <div class="role-title">Backend Engineer - Python / FastAPI Microservices</div>
             </div>
             <div class="badges-group">
-                <span class="badge" style="background: #38bdf822; color: #38bdf8; border: 1px solid #38bdf866;">
-                    🌐 Verified Active Requisition
+                <span class="badge" style="background: #06b6d422; color: #06b6d4; border: 1px solid #06b6d466;">
+                    ⚡ Instahyre 1-Click Fast Apply
                 </span>
                 <span class="badge" style="background: #10b98122; color: #10b981; border: 1px solid #10b98166;">
                     🎯 0 - 2 Years (Backend Developer)
@@ -1544,15 +1386,11 @@
                 </span>
             </div>
         </div>
-                    📍 Remote / Hybrid (Mumbai)
-                </span>
-            </div>
-        </div>
         <div class="job-meta">
             <div><strong>Domain:</strong> SaaS Platform & Asynchronous Backend &nbsp;|&nbsp; <strong>Flagship Match:</strong> UPI Fraud Detection & Defense SOC Engine</div>
         </div>
         <div class="button-group">
-            <a href="https://www.instahyre.com/jobs-at-meraki-labs/" target="_blank" class="btn btn-primary">🚀 Apply on Direct Requisition</a>
+            <a href="https://www.instahyre.com/jobs-at-meraki-labs/" target="_blank" class="btn btn-instahyre">⚡ 1-Click Apply on Instahyre</a>
             <button onclick='copyPitch("# Application for Backend Engineer - Python / FastAPI Microservices at Meraki Labs\n\n**Candidate:** Devashish Sharma  \n**Target Role:** Backend Engineer - Python / FastAPI Microservices  \n**Experience Level:** 0 - 2 Years (Backend Developer)  \n**Work Mode / Location:** Remote / Hybrid (Mumbai)  \n**Direct Application URL:** https://www.instahyre.com/jobs-at-meraki-labs/  \n**Flagship Portfolio Repo:** UPI Fraud Detection & Defense SOC Engine  \n\n---\n\n### Executive Pitch\n\nDear Meraki Labs Talent Acquisition & Engineering Leadership Team,\n\nI am writing to express my strong enthusiasm for the **Backend Engineer - Python / FastAPI Microservices** opening at **Meraki Labs**. \n\nWith a Bachelor of Engineering in Artificial Intelligence & Data Science (Graduating 2026, Fr. Conceicao Rodrigues College of Engineering, Mumbai) and ~1.3 years of production software engineering experience (Praveedh Decor: Mar 2026 \u2013 Oct 2026; Techronic IT Solutions: Aug 2025 \u2013 Feb 2026), my technical background directly aligns with Meraki Labs's engineering stack.\n\n### Key Technical Value Delivered:\n1. **Low-Latency Python Microservices & Systems:** Architected distributed microservices and asynchronous backend workflows utilizing FastAPI, Redis cache-aside clustering, and PostgreSQL, slashing API latency by 45% and sustaining high throughput.\n2. **Flagship Domain Alignment (UPI Fraud Detection & Defense SOC Engine):** Built enterprise-grade production architectures with full CI/CD, Dockerization, automated PyTest suites (85%+ coverage), and institutional-grade telemetry.\n3. **Applied AI / Machine Learning:** Extensive experience fine-tuning Transformer architectures, deploying anomaly detection models, and optimizing vector retrieval pipelines with strict sub-millisecond query constraints.\n\nMy master 1-page institutional resume is attached. I would welcome the opportunity to discuss how my systems engineering and AI background can contribute immediately to Meraki Labs.\n\nSincerely,  \n**Devashish Sharma**  \nMumbai, India | devashishsharma719@gmail.com | +91 8928992654  \nLinkedIn: [linkedin.com/in/devashish-sharma-a21787300](https://www.linkedin.com/in/devashish-sharma-a21787300)  \nGitHub: [github.com/dhungababa](https://github.com/dhungababa)\n", this)' class="btn btn-secondary">📋 Copy Custom Pitch</button>
         </div>
     </div>
@@ -1572,10 +1410,6 @@
                     🎯 0 - 2 Years (SDE-1 Stock & WealthTech)
                 </span>
                 <span class="badge" style="background: #f59e0b22; color: #f59e0b; border: 1px solid #f59e0b66;">
-                    📍 Hybrid (Bangalore)
-                </span>
-            </div>
-        </div>
                     📍 Hybrid (Bangalore)
                 </span>
             </div>
@@ -1608,10 +1442,6 @@
                 </span>
             </div>
         </div>
-                    📍 Hybrid (Bangalore)
-                </span>
-            </div>
-        </div>
         <div class="job-meta">
             <div><strong>Domain:</strong> Payment Gateway Infrastructure & Fraud Detection &nbsp;|&nbsp; <strong>Flagship Match:</strong> UPI Fraud Detection & Defense SOC Engine</div>
         </div>
@@ -1636,10 +1466,6 @@
                     🎯 0 - 2 Years (FinTech SDE-1)
                 </span>
                 <span class="badge" style="background: #f59e0b22; color: #f59e0b; border: 1px solid #f59e0b66;">
-                    📍 Visiting Office (Bangalore)
-                </span>
-            </div>
-        </div>
                     📍 Visiting Office (Bangalore)
                 </span>
             </div>
@@ -1672,10 +1498,6 @@
                 </span>
             </div>
         </div>
-                    📍 Remote / Hybrid (Pan-India)
-                </span>
-            </div>
-        </div>
         <div class="job-meta">
             <div><strong>Domain:</strong> Neobanking & Real-time Banking Microservices &nbsp;|&nbsp; <strong>Flagship Match:</strong> UPI Fraud Detection & Defense SOC Engine</div>
         </div>
@@ -1691,6 +1513,7 @@
     <div id="toast" class="toast">✓ Custom Tailored Pitch copied to clipboard! Ready to paste (Ctrl+V).</div>
 
     <script>
+        const instahyreList = ["https://www.instahyre.com/company/sensibull/", "https://www.instahyre.com/jobs-at-northstar-quant/", "https://www.instahyre.com/jobs-at-bravebird-ai/", "https://www.instahyre.com/jobs-at-arya-ai/", "https://www.instahyre.com/jobs-at-quant-matrix/", "https://www.instahyre.com/jobs-at-kuku-fm/", "https://www.instahyre.com/jobs-at-meraki-labs/"];
         let currentFilter = 'all';
 
         function setFilter(filterType, btn) {
@@ -1716,6 +1539,14 @@
                 } else {
                     card.style.display = 'none';
                 }
+            });
+        }
+
+        function openAllInstahyre() {
+            instahyreList.forEach((url, i) => {
+                setTimeout(() => {
+                    window.open(url, '_blank');
+                }, i * 400);
             });
         }
 
