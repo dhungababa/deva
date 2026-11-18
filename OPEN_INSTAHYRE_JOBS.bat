@@ -1,7 +1,7 @@
 @echo off
 title Instahyre 1-Click Fast Apply Hub - Devashish Sharma
 echo =====================================================================
-echo  Opening Verified Instahyre AI & FinTech Jobs in Your Logged-In Browser...
+echo  Opening Verified Instahyre AI, Quant & FinTech Jobs in Your Logged-In Browser...
 echo  Since you are logged in, simply click "Apply" on each tab!
 echo =====================================================================
 
@@ -11,6 +11,12 @@ start "" "https://www.instahyre.com/jobs-at-northstar-quant/"
 timeout /t 1 /nobreak >nul
 start "" "https://www.instahyre.com/jobs-at-bravebird-ai/"
 timeout /t 1 /nobreak >nul
+start "" "https://www.instahyre.com/company/incred/"
+timeout /t 1 /nobreak >nul
+start "" "https://www.instahyre.com/company/jar/"
+timeout /t 1 /nobreak >nul
+start "" "https://www.instahyre.com/company/cred/"
+timeout /t 1 /nobreak >nul
 start "" "https://www.instahyre.com/jobs-at-arya-ai/"
 timeout /t 1 /nobreak >nul
 start "" "https://www.instahyre.com/jobs-at-quant-matrix/"
@@ -18,8 +24,14 @@ timeout /t 1 /nobreak >nul
 start "" "https://www.instahyre.com/jobs-at-kuku-fm/"
 timeout /t 1 /nobreak >nul
 start "" "https://www.instahyre.com/jobs-at-meraki-labs/"
+timeout /t 1 /nobreak >nul
+start "" "https://www.instahyre.com/company/invideo/"
+timeout /t 1 /nobreak >nul
+start "" "https://www.instahyre.com/company/pocket-fm/"
+timeout /t 1 /nobreak >nul
+start "" "https://www.instahyre.com/company/alphagrep/"
 
 echo.
-echo [x] All 7 verified Instahyre tabs opened in your browser!
+echo [x] All 13 verified Instahyre tabs opened in your browser!
 echo Just click the green "Apply" button on each tab!
 pause
