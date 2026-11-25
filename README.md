@@ -1,28 +1,28 @@
-# Devashish Sharma — AI/ML Engineer (FinTech & Quantitative Systems)
+# Devashish Sharma — AI/ML & Software Engineer
 
-[![Resume PDF](https://img.shields.io/badge/Download-Master_Resume_PDF-004B87?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://raw.githubusercontent.com/dhungababa/deva/main/Devashish_Sharma_AI_ML_FinTech_Engineer_Resume.pdf)
+[![Resume PDF](https://img.shields.io/badge/Download-Master_Resume_PDF-004B87?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://raw.githubusercontent.com/dhungababa/deva/main/Devashish_Sharma_AI_ML_Engineer_Resume.pdf)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/devashish-sharma-a21787300)
 [![GitHub](https://img.shields.io/badge/GitHub-dhungababa-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/dhungababa)
 [![Email](https://img.shields.io/badge/Email-devashishsharma719@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:devashishsharma719@gmail.com)
 
 ---
 
-## Production FinTech & Quantitative Repositories
+## Core Engineering Repositories
 
-### 1. [UPI Real-Time Fraud Detection & Autonomous SOAR Engine](https://github.com/dhungababa/UPI_Fraud_Detection_SOC)
-- **Tech Stack:** Python, XGBoost, FastAPI (AsyncIO), NetworkX, SHAP, Prometheus, Docker
-- **Architecture:** High-throughput transactional fraud scoring achieving **96% recall** on extreme imbalanced data (**99:1** normal-to-fraud ratio). Features 3D Haversine impossible travel detection (**>Mach 1**), money-mule graph ring analysis across **1M+** synthetic DPDP transactions, local SHAP explainability, and automated **<20ms ISO 8583** switch freeze SOAR playbooks.
+### 1. [UPI Fraud Detection & Defense SOC Engine](https://github.com/dhungababa/UPI_Fraud_Detection_SOC)
+- **Tech Stack:** Python, XGBoost, SMOTE, FastAPI, SHAP, NetworkX, SQLite, Prometheus, Pytest
+- **Architecture:** Trained SMOTE + XGBoost pipeline on 500K synthetic DPDP transactions (99:1 imbalance), achieving **76.4% test recall** with cost-sensitive loss thresholding. Includes stateful rolling-velocity feature store, spherical Haversine impossible-travel detection (`>800 km/h`), NetworkX mule-ring clustering, FastAPI inference + WebSocket streaming, sandbox-simulated ISO 8583 / FIDO2 SOAR payloads, and **11/11** passing Pytest integration checks.
 
-### 2. [SEC 10-K Filings Forensic Financial Intelligence & RAG Engine](https://github.com/dhungababa/SEC_Filings_RAG_Analyzer)
-- **Tech Stack:** LlamaIndex, FAISS, Mistral 7B (4-bit GGUF), Beneish M-Score, Altman Z-Score, DuPont 5-Way, FastAPI
-- **Architecture:** Sub-50ms hybrid semantic search across multi-hundred-page annual filings with strict chunk citation guardrails to eliminate LLM hallucinations. Includes quantitative accounting fraud radar (Beneish **8-variable** M-Score, Altman **Z-Score**, and **5-factor** DuPont ROE) with interactive 3D risk radar.
+### 2. [SEC Filings Intelligence & Forensic RAG Engine](https://github.com/dhungababa/SEC_Filings_RAG_Analyzer)
+- **Tech Stack:** Python, FastAPI, FAISS, Sentence-Transformers, Ollama (Llama 3), Gemini API, pdfplumber, Plotly, Pytest
+- **Architecture:** Hybrid semantic RAG microservice (`all-MiniLM-L6-v2` + FAISS) with live SEC EDGAR API (`data.sec.gov`) 10-K retrieval, CWE-22 path traversal sanitization, deterministic accounting distress models (Beneish 8-variable M-Score, Altman Z-Score, 5-factor DuPont ROE), regex numeric grounding checks, and **13/13** passing Pytest checks.
 
-### 3. [Autonomous Quantitative Alpha Terminal & 11-Microbot Swarm](https://github.com/dhungababa/AI_Stock_Predictor_Quantitative)
-- **Tech Stack:** FinBERT, XGBoost, Monte Carlo (GBM), L2 Order Book Depth, Half-Kelly Sizing, Streamlit
-- **Architecture:** Institutional multi-agent quant trading swarm where **11 autonomous microbots** vote on live trade execution mandates. Features a **10-tier** NSE L2 order book microstructure simulator computing Order Flow Imbalance (OFI), **1,000-path** Monte Carlo GBM with **95%/99%** VaR/CVaR risk budgeting, and 5-year historical backtesting modeling Indian execution frictions (**0.10% STT**, **Rs 20** brokerage).
+### 3. [Quantitative Equity Alpha & Risk Terminal](https://github.com/dhungababa/AI_Stock_Predictor_Quantitative)
+- **Tech Stack:** Python, XGBoost, FinBERT, yfinance, Streamlit, Plotly, Pytest
+- **Architecture:** Quantitative 5-year NSE research pipeline (22 Nifty equities, 1,206 trading days) combining 18 technical indicators with `ProsusAI/finbert` sentiment scoring, strict out-of-sample 5-fold `TimeSeriesSplit` validation (`0.48–0.56 ROC-AUC`), walk-forward backtests modeling `0.10% STT` and `Rs 20` brokerage, vectorized 1,000-path Monte Carlo GBM VaR/CVaR, synthetic 10-tier slippage simulator, and **9/9** passing unit tests.
 
 ---
 
 ## Master Resume Direct Download
-- [Download Resume (PDF)](https://raw.githubusercontent.com/dhungababa/deva/main/Devashish_Sharma_AI_ML_FinTech_Engineer_Resume.pdf)
-- [Download Resume (DOCX)](https://raw.githubusercontent.com/dhungababa/deva/main/Devashish_Sharma_AI_ML_FinTech_Engineer_Resume.docx)
+- [Download Resume (PDF)](https://raw.githubusercontent.com/dhungababa/deva/main/Devashish_Sharma_AI_ML_Engineer_Resume.pdf)
+- [Download Resume (DOCX)](https://raw.githubusercontent.com/dhungababa/deva/main/Devashish_Sharma_AI_ML_Engineer_Resume.docx)
