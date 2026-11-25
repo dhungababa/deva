@@ -2,7 +2,7 @@
 
 **Candidate:** Devashish Sharma  
 **Target Roles:** AI/ML Engineer (FinTech & Quantitative Systems)  
-**Direct Resume Download (Raw GitHub PDF):** [Devashish_Sharma_AI_ML_FinTech_Engineer_Resume.pdf](https://raw.githubusercontent.com/dhungababa/deva/main/Devashish_Sharma_AI_ML_FinTech_Engineer_Resume.pdf)  
+**Direct Resume Download (Raw GitHub PDF):** [Devashish_Sharma_AI_ML_Engineer_Resume.pdf](https://raw.githubusercontent.com/dhungababa/deva/main/Devashish_Sharma_AI_ML_Engineer_Resume.pdf)  
 **GitHub Profile:** [https://github.com/dhungababa](https://github.com/dhungababa)  
 **Portfolio Repository:** [https://github.com/dhungababa/deva](https://github.com/dhungababa/deva)  
 **Contact:** devashishsharma719@gmail.com | +91 8928992654 | [LinkedIn](https://www.linkedin.com/in/devashish-sharma-a21787300)
@@ -20,8 +20,8 @@ When filling out Greenhouse, Lever, Keka, or custom portal forms, paste these st
 - **Location:** Mumbai, India
 - **LinkedIn:** https://www.linkedin.com/in/devashish-sharma-a21787300
 - **GitHub:** https://github.com/dhungababa
-- **Resume URL (if portal asks for link):** https://raw.githubusercontent.com/dhungababa/deva/main/Devashish_Sharma_AI_ML_FinTech_Engineer_Resume.pdf
-- **Uploaded Resume File:** `Devashish_Sharma_AI_ML_FinTech_Engineer_Resume.pdf` (Single page, 0 encoding errors, Times New Roman, bolded impact metrics)
+- **Resume URL (if portal asks for link):** https://raw.githubusercontent.com/dhungababa/deva/main/Devashish_Sharma_AI_ML_Engineer_Resume.pdf
+- **Uploaded Resume File:** `Devashish_Sharma_AI_ML_Engineer_Resume.pdf` (Single page, 0 encoding errors, Times New Roman, bolded impact metrics)
 
 ---
 
@@ -230,7 +230,7 @@ When filling out Greenhouse, Lever, Keka, or custom portal forms, paste these st
 - **Career Portal:** [https://jobs.lever.co/atlan](https://jobs.lever.co/atlan)
 - **Flagship Project:** [SEC Filings Intelligence & Forensic RAG Engine](https://github.com/dhungababa/SEC_Filings_RAG_Analyzer)
 - **Customized Note / Pitch to Recruiter:**
-> "Hi Atlan Recruiting Team, I am an AI/ML Engineer specializing in FinTech and quantitative systems. Specialized in sub-50ms hybrid semantic search (LlamaIndex & FAISS), local LLM inference guardrails (Mistral 7B), and quantitative forensic accounting models (Beneish M-Score, Altman Z-Score). I recently built and open-sourced SEC Filings Intelligence & Forensic RAG Engine (https://github.com/dhungababa/SEC_Filings_RAG_Analyzer), showcasing production-grade pipelines, test coverage, and low-latency API architecture. I would love to contribute to Atlan's engineering and data initiatives."
+> "Hi Atlan Recruiting Team, I am an AI/ML Engineer specializing in FinTech and quantitative systems. Specialized in hybrid FAISS semantic search (Sentence-Transformers + FAISS), LLM inference guardrails (Ollama / Gemini), and quantitative forensic accounting models (Beneish M-Score, Altman Z-Score). I recently built and open-sourced SEC Filings Intelligence & Forensic RAG Engine (https://github.com/dhungababa/SEC_Filings_RAG_Analyzer), showcasing production-grade pipelines, test coverage, and low-latency API architecture. I would love to contribute to Atlan's engineering and data initiatives."
 
 ### 22. Hevo Data
 - **Category:** Enterprise AI, GenAI & Data Platforms
@@ -238,7 +238,7 @@ When filling out Greenhouse, Lever, Keka, or custom portal forms, paste these st
 - **Career Portal:** [https://boards.greenhouse.io/hevodata](https://boards.greenhouse.io/hevodata)
 - **Flagship Project:** [SEC Filings Intelligence & Forensic RAG Engine](https://github.com/dhungababa/SEC_Filings_RAG_Analyzer)
 - **Customized Note / Pitch to Recruiter:**
-> "Hi Hevo Data Recruiting Team, I am an AI/ML Engineer specializing in FinTech and quantitative systems. Specialized in sub-50ms hybrid semantic search (LlamaIndex & FAISS), local LLM inference guardrails (Mistral 7B), and quantitative forensic accounting models (Beneish M-Score, Altman Z-Score). I recently built and open-sourced SEC Filings Intelligence & Forensic RAG Engine (https://github.com/dhungababa/SEC_Filings_RAG_Analyzer), showcasing production-grade pipelines, test coverage, and low-latency API architecture. I would love to contribute to Hevo Data's engineering and data initiatives."
+> "Hi Hevo Data Recruiting Team, I am an AI/ML Engineer specializing in FinTech and quantitative systems. Specialized in hybrid FAISS semantic search (Sentence-Transformers + FAISS), LLM inference guardrails (Ollama / Gemini), and quantitative forensic accounting models (Beneish M-Score, Altman Z-Score). I recently built and open-sourced SEC Filings Intelligence & Forensic RAG Engine (https://github.com/dhungababa/SEC_Filings_RAG_Analyzer), showcasing production-grade pipelines, test coverage, and low-latency API architecture. I would love to contribute to Hevo Data's engineering and data initiatives."
 
 ### 23. Observe.AI
 - **Category:** Enterprise AI, GenAI & Data Platforms
@@ -246,7 +246,7 @@ When filling out Greenhouse, Lever, Keka, or custom portal forms, paste these st
 - **Career Portal:** [https://boards.greenhouse.io/observeai](https://boards.greenhouse.io/observeai)
 - **Flagship Project:** [SEC Filings Intelligence & Forensic RAG Engine](https://github.com/dhungababa/SEC_Filings_RAG_Analyzer)
 - **Customized Note / Pitch to Recruiter:**
-> "Hi Observe.AI Recruiting Team, I am an AI/ML Engineer specializing in FinTech and quantitative systems. Specialized in sub-50ms hybrid semantic search (LlamaIndex & FAISS), local LLM inference guardrails (Mistral 7B), and quantitative forensic accounting models (Beneish M-Score, Altman Z-Score). I recently built and open-sourced SEC Filings Intelligence & Forensic RAG Engine (https://github.com/dhungababa/SEC_Filings_RAG_Analyzer), showcasing production-grade pipelines, test coverage, and low-latency API architecture. I would love to contribute to Observe.AI's engineering and data initiatives."
+> "Hi Observe.AI Recruiting Team, I am an AI/ML Engineer specializing in FinTech and quantitative systems. Specialized in hybrid FAISS semantic search (Sentence-Transformers + FAISS), LLM inference guardrails (Ollama / Gemini), and quantitative forensic accounting models (Beneish M-Score, Altman Z-Score). I recently built and open-sourced SEC Filings Intelligence & Forensic RAG Engine (https://github.com/dhungababa/SEC_Filings_RAG_Analyzer), showcasing production-grade pipelines, test coverage, and low-latency API architecture. I would love to contribute to Observe.AI's engineering and data initiatives."
 
 ### 24. Gupshup
 - **Category:** Enterprise AI, GenAI & Data Platforms
@@ -254,7 +254,7 @@ When filling out Greenhouse, Lever, Keka, or custom portal forms, paste these st
 - **Career Portal:** [https://gupshup.io/careers](https://gupshup.io/careers)
 - **Flagship Project:** [SEC Filings Intelligence & Forensic RAG Engine](https://github.com/dhungababa/SEC_Filings_RAG_Analyzer)
 - **Customized Note / Pitch to Recruiter:**
-> "Hi Gupshup Recruiting Team, I am an AI/ML Engineer specializing in FinTech and quantitative systems. Specialized in sub-50ms hybrid semantic search (LlamaIndex & FAISS), local LLM inference guardrails (Mistral 7B), and quantitative forensic accounting models (Beneish M-Score, Altman Z-Score). I recently built and open-sourced SEC Filings Intelligence & Forensic RAG Engine (https://github.com/dhungababa/SEC_Filings_RAG_Analyzer), showcasing production-grade pipelines, test coverage, and low-latency API architecture. I would love to contribute to Gupshup's engineering and data initiatives."
+> "Hi Gupshup Recruiting Team, I am an AI/ML Engineer specializing in FinTech and quantitative systems. Specialized in hybrid FAISS semantic search (Sentence-Transformers + FAISS), LLM inference guardrails (Ollama / Gemini), and quantitative forensic accounting models (Beneish M-Score, Altman Z-Score). I recently built and open-sourced SEC Filings Intelligence & Forensic RAG Engine (https://github.com/dhungababa/SEC_Filings_RAG_Analyzer), showcasing production-grade pipelines, test coverage, and low-latency API architecture. I would love to contribute to Gupshup's engineering and data initiatives."
 
 ### 25. Yellow.ai
 - **Category:** Enterprise AI, GenAI & Data Platforms
@@ -262,7 +262,7 @@ When filling out Greenhouse, Lever, Keka, or custom portal forms, paste these st
 - **Career Portal:** [https://yellow.ai/careers](https://yellow.ai/careers)
 - **Flagship Project:** [SEC Filings Intelligence & Forensic RAG Engine](https://github.com/dhungababa/SEC_Filings_RAG_Analyzer)
 - **Customized Note / Pitch to Recruiter:**
-> "Hi Yellow.ai Recruiting Team, I am an AI/ML Engineer specializing in FinTech and quantitative systems. Specialized in sub-50ms hybrid semantic search (LlamaIndex & FAISS), local LLM inference guardrails (Mistral 7B), and quantitative forensic accounting models (Beneish M-Score, Altman Z-Score). I recently built and open-sourced SEC Filings Intelligence & Forensic RAG Engine (https://github.com/dhungababa/SEC_Filings_RAG_Analyzer), showcasing production-grade pipelines, test coverage, and low-latency API architecture. I would love to contribute to Yellow.ai's engineering and data initiatives."
+> "Hi Yellow.ai Recruiting Team, I am an AI/ML Engineer specializing in FinTech and quantitative systems. Specialized in hybrid FAISS semantic search (Sentence-Transformers + FAISS), LLM inference guardrails (Ollama / Gemini), and quantitative forensic accounting models (Beneish M-Score, Altman Z-Score). I recently built and open-sourced SEC Filings Intelligence & Forensic RAG Engine (https://github.com/dhungababa/SEC_Filings_RAG_Analyzer), showcasing production-grade pipelines, test coverage, and low-latency API architecture. I would love to contribute to Yellow.ai's engineering and data initiatives."
 
 ### 26. Kore.ai
 - **Category:** Enterprise AI, GenAI & Data Platforms
@@ -270,7 +270,7 @@ When filling out Greenhouse, Lever, Keka, or custom portal forms, paste these st
 - **Career Portal:** [https://kore.ai/careers](https://kore.ai/careers)
 - **Flagship Project:** [SEC Filings Intelligence & Forensic RAG Engine](https://github.com/dhungababa/SEC_Filings_RAG_Analyzer)
 - **Customized Note / Pitch to Recruiter:**
-> "Hi Kore.ai Recruiting Team, I am an AI/ML Engineer specializing in FinTech and quantitative systems. Specialized in sub-50ms hybrid semantic search (LlamaIndex & FAISS), local LLM inference guardrails (Mistral 7B), and quantitative forensic accounting models (Beneish M-Score, Altman Z-Score). I recently built and open-sourced SEC Filings Intelligence & Forensic RAG Engine (https://github.com/dhungababa/SEC_Filings_RAG_Analyzer), showcasing production-grade pipelines, test coverage, and low-latency API architecture. I would love to contribute to Kore.ai's engineering and data initiatives."
+> "Hi Kore.ai Recruiting Team, I am an AI/ML Engineer specializing in FinTech and quantitative systems. Specialized in hybrid FAISS semantic search (Sentence-Transformers + FAISS), LLM inference guardrails (Ollama / Gemini), and quantitative forensic accounting models (Beneish M-Score, Altman Z-Score). I recently built and open-sourced SEC Filings Intelligence & Forensic RAG Engine (https://github.com/dhungababa/SEC_Filings_RAG_Analyzer), showcasing production-grade pipelines, test coverage, and low-latency API architecture. I would love to contribute to Kore.ai's engineering and data initiatives."
 
 ### 27. Uniphore
 - **Category:** Enterprise AI, GenAI & Data Platforms
@@ -278,7 +278,7 @@ When filling out Greenhouse, Lever, Keka, or custom portal forms, paste these st
 - **Career Portal:** [https://uniphore.com/careers](https://uniphore.com/careers)
 - **Flagship Project:** [SEC Filings Intelligence & Forensic RAG Engine](https://github.com/dhungababa/SEC_Filings_RAG_Analyzer)
 - **Customized Note / Pitch to Recruiter:**
-> "Hi Uniphore Recruiting Team, I am an AI/ML Engineer specializing in FinTech and quantitative systems. Specialized in sub-50ms hybrid semantic search (LlamaIndex & FAISS), local LLM inference guardrails (Mistral 7B), and quantitative forensic accounting models (Beneish M-Score, Altman Z-Score). I recently built and open-sourced SEC Filings Intelligence & Forensic RAG Engine (https://github.com/dhungababa/SEC_Filings_RAG_Analyzer), showcasing production-grade pipelines, test coverage, and low-latency API architecture. I would love to contribute to Uniphore's engineering and data initiatives."
+> "Hi Uniphore Recruiting Team, I am an AI/ML Engineer specializing in FinTech and quantitative systems. Specialized in hybrid FAISS semantic search (Sentence-Transformers + FAISS), LLM inference guardrails (Ollama / Gemini), and quantitative forensic accounting models (Beneish M-Score, Altman Z-Score). I recently built and open-sourced SEC Filings Intelligence & Forensic RAG Engine (https://github.com/dhungababa/SEC_Filings_RAG_Analyzer), showcasing production-grade pipelines, test coverage, and low-latency API architecture. I would love to contribute to Uniphore's engineering and data initiatives."
 
 ### 28. Scribble Data
 - **Category:** Enterprise AI, GenAI & Data Platforms
@@ -286,7 +286,7 @@ When filling out Greenhouse, Lever, Keka, or custom portal forms, paste these st
 - **Career Portal:** [https://scribbledata.io/careers](https://scribbledata.io/careers)
 - **Flagship Project:** [SEC Filings Intelligence & Forensic RAG Engine](https://github.com/dhungababa/SEC_Filings_RAG_Analyzer)
 - **Customized Note / Pitch to Recruiter:**
-> "Hi Scribble Data Recruiting Team, I am an AI/ML Engineer specializing in FinTech and quantitative systems. Specialized in sub-50ms hybrid semantic search (LlamaIndex & FAISS), local LLM inference guardrails (Mistral 7B), and quantitative forensic accounting models (Beneish M-Score, Altman Z-Score). I recently built and open-sourced SEC Filings Intelligence & Forensic RAG Engine (https://github.com/dhungababa/SEC_Filings_RAG_Analyzer), showcasing production-grade pipelines, test coverage, and low-latency API architecture. I would love to contribute to Scribble Data's engineering and data initiatives."
+> "Hi Scribble Data Recruiting Team, I am an AI/ML Engineer specializing in FinTech and quantitative systems. Specialized in hybrid FAISS semantic search (Sentence-Transformers + FAISS), LLM inference guardrails (Ollama / Gemini), and quantitative forensic accounting models (Beneish M-Score, Altman Z-Score). I recently built and open-sourced SEC Filings Intelligence & Forensic RAG Engine (https://github.com/dhungababa/SEC_Filings_RAG_Analyzer), showcasing production-grade pipelines, test coverage, and low-latency API architecture. I would love to contribute to Scribble Data's engineering and data initiatives."
 
 ### 29. Amagi Media Labs
 - **Category:** Enterprise AI, GenAI & Data Platforms
@@ -294,7 +294,7 @@ When filling out Greenhouse, Lever, Keka, or custom portal forms, paste these st
 - **Career Portal:** [https://amagi.com/careers](https://amagi.com/careers)
 - **Flagship Project:** [SEC Filings Intelligence & Forensic RAG Engine](https://github.com/dhungababa/SEC_Filings_RAG_Analyzer)
 - **Customized Note / Pitch to Recruiter:**
-> "Hi Amagi Media Labs Recruiting Team, I am an AI/ML Engineer specializing in FinTech and quantitative systems. Specialized in sub-50ms hybrid semantic search (LlamaIndex & FAISS), local LLM inference guardrails (Mistral 7B), and quantitative forensic accounting models (Beneish M-Score, Altman Z-Score). I recently built and open-sourced SEC Filings Intelligence & Forensic RAG Engine (https://github.com/dhungababa/SEC_Filings_RAG_Analyzer), showcasing production-grade pipelines, test coverage, and low-latency API architecture. I would love to contribute to Amagi Media Labs's engineering and data initiatives."
+> "Hi Amagi Media Labs Recruiting Team, I am an AI/ML Engineer specializing in FinTech and quantitative systems. Specialized in hybrid FAISS semantic search (Sentence-Transformers + FAISS), LLM inference guardrails (Ollama / Gemini), and quantitative forensic accounting models (Beneish M-Score, Altman Z-Score). I recently built and open-sourced SEC Filings Intelligence & Forensic RAG Engine (https://github.com/dhungababa/SEC_Filings_RAG_Analyzer), showcasing production-grade pipelines, test coverage, and low-latency API architecture. I would love to contribute to Amagi Media Labs's engineering and data initiatives."
 
 ### 30. Lincode Labs
 - **Category:** Enterprise AI, GenAI & Data Platforms
@@ -302,4 +302,4 @@ When filling out Greenhouse, Lever, Keka, or custom portal forms, paste these st
 - **Career Portal:** [https://lincode.ai/careers](https://lincode.ai/careers)
 - **Flagship Project:** [SEC Filings Intelligence & Forensic RAG Engine](https://github.com/dhungababa/SEC_Filings_RAG_Analyzer)
 - **Customized Note / Pitch to Recruiter:**
-> "Hi Lincode Labs Recruiting Team, I am an AI/ML Engineer specializing in FinTech and quantitative systems. Specialized in sub-50ms hybrid semantic search (LlamaIndex & FAISS), local LLM inference guardrails (Mistral 7B), and quantitative forensic accounting models (Beneish M-Score, Altman Z-Score). I recently built and open-sourced SEC Filings Intelligence & Forensic RAG Engine (https://github.com/dhungababa/SEC_Filings_RAG_Analyzer), showcasing production-grade pipelines, test coverage, and low-latency API architecture. I would love to contribute to Lincode Labs's engineering and data initiatives."
+> "Hi Lincode Labs Recruiting Team, I am an AI/ML Engineer specializing in FinTech and quantitative systems. Specialized in hybrid FAISS semantic search (Sentence-Transformers + FAISS), LLM inference guardrails (Ollama / Gemini), and quantitative forensic accounting models (Beneish M-Score, Altman Z-Score). I recently built and open-sourced SEC Filings Intelligence & Forensic RAG Engine (https://github.com/dhungababa/SEC_Filings_RAG_Analyzer), showcasing production-grade pipelines, test coverage, and low-latency API architecture. I would love to contribute to Lincode Labs's engineering and data initiatives."
